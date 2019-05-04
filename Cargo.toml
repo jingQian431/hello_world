@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["jingQian431 <37545839+jingQian431@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+
+rand = "0.6.5"
