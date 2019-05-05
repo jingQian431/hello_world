@@ -12,3 +12,19 @@ Rust learning
     boolean, character as well as tuple and array as compound types.
     Array in Rust has a fixed length, also tuple.
     
+    Ownership rules in rust: 
+    
+     - Each value in Rust has a variable that’s called its owner.
+          
+     - There can only be one owner at a time.
+          
+     - When the owner goes out of scope, the value will be dropped.
+     
+    Borrowing rule:
+    
+     - We cannot have a mutable reference while we have a immutable one.
+     
+     - Multi mutable references are not acceptable in a scope, but immutable
+     reference are acceptable.
+     
+     - References must always be valid
