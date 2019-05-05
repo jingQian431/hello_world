@@ -28,3 +28,5 @@ Rust learning
      reference are acceptable.
      
      - References must always be valid
+     
+     - string literal and &str are immutable
