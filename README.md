@@ -1,5 +1,5 @@
 # hello_world
-Rust learning
+Rust learning notes
 1. Day
 
     First of all, i started to learn Rust by myself and wrote a hello-world program
