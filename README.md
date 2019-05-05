@@ -1,4 +1,4 @@
-# hello_world
+# rustlearningbymyself
 Rust learning notes
 1. Day
 
