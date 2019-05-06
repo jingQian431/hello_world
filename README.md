@@ -30,3 +30,19 @@ Rust learning notes
      - References must always be valid
      
      - string literal and &str are immutable
+     
+3. Day
+    
+    Struct learning: `#[derive(Debug)]` could give struct a character. For example Debug
+    could let the struct print by {:?}.
+    
+    `match` or `if let` can be used, when enum values have data inside them.
+    
+    `Vec<T>` is likely a mutable list. `Vec::new()` creates a leer list or `vec![1,2,3]`
+    a list with elements 1, 2, 3. `push` is the update method for list. `&v[2]` or `v.get(2)`
+    can read a element of vectors but `get` returns `Option<&T>`.
+    
+    `String` is mutable but `str` not. `push_str(&str)` appends a string to another.
+    
+    `HashMap` stores a mapping of keys to values. `let my_hashmap: HashMap<_, _> = vec1_keys.iter().zip(vec2_values.iter()).collect();`
+    creates a hashmap from two vectors.
