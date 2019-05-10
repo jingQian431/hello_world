@@ -46,3 +46,13 @@ Rust learning notes
     
     `HashMap` stores a mapping of keys to values. `let my_hashmap: HashMap<_, _> = vec1_keys.iter().zip(vec2_values.iter()).collect();`
     creates a hashmap from two vectors.
+    
+4. Day
+
+    Error handling: the `?` Operator can only be used in functions that return `Result`.
+    The decision on `panic!` or `Result` depends on, if an error should be
+    recovered or not. In most situation `Result` should be used because we do not 
+    want the program to crush. It should be fixed.
+    
+    Using `panic!` and `Result` in the appropriate situation will make my code
+    more reliable in the face of inevitable problems.
