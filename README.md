@@ -56,3 +56,14 @@ Rust learning notes
     
     Using `panic!` and `Result` in the appropriate situation will make my code
     more reliable in the face of inevitable problems.
+    
+5. Day
+
+    generic Type in rust, we pay no runtime cost for using it, because rust compiles generic code into code that specifies the type in each instance.
+    When the code runs, it performs just as it would if we had duplicated each definition by hand.
+    
+    Definition of a Trait is a way to group method signatures together to define a set of behaviors necessary to accomplish some purpose.
+    
+    the main aim of lifetimes is to prevent dangling references, which cause a program to
+    reference data other than the data it's intended to reference. lifetime's notation do not change the lifetime,
+    it helps compiler to check if a reference is valid.
